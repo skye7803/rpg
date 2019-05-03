@@ -31,7 +31,7 @@ class Begin:
             print('"Ah, Young one, you come from a far away land, and have a long journey ahead of you," He says.')
             print('"Please, Accept this gift to aid your journey,". He gives you a small worn sword')
             print('You then decide to head towards the village once again')
-            rpg_inv.sword = True
+            Inventory.sword = True
             main.Village()
         else:
             print('You decide not to talk to anyone and instead to head straight to the village.')
