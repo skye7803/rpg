@@ -121,7 +121,3 @@ main = Main()
 inventory = Inventory()
 
 begin.WakeUp()
-
-main = Main(inventory)
-
-begin.WakeUp()
