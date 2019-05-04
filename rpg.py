@@ -1,3 +1,5 @@
+
+
 class Inventory:
     def __init__(self):
         self.sword = False
@@ -32,7 +34,11 @@ class Begin:
             print('"Ah, Young one, you come from a far away land, and have a long journey ahead of you," He says.')
             print('"Please, Accept this gift to aid your journey,". He gives you a small worn sword')
             print('You then decide to head towards the village once again')
+<<<<<<< Updated upstream
             self.inventory.sword = True
+=======
+            inventory.sword = True
+>>>>>>> Stashed changes
             main.Village()
         else:
             print('You decide not to talk to anyone and instead to head straight to the village.')
@@ -97,7 +103,11 @@ class Main:
                     print('You walk into a warm, welcoming tavern with a bartender and a few regulars.')
                     print('You walk up to the bartender and start some chit chat')
                     print('He reveals you\'re in a town called Ravel in the province of Fradin.')
+<<<<<<< Updated upstream
                     if self.inventory.sword:
+=======
+                    if inventory.sword:
+>>>>>>> Stashed changes
                         self.helplist = ['"who am i?"', '"who are you?"', '"what is this sword?"']
                     else:
                         self.helplist = ['"who am i?"', '"who are you?"']
@@ -112,9 +122,19 @@ class Main:
         print(self.questlist)
 
 
+<<<<<<< Updated upstream
 inventory = Inventory()
 
 begin = Begin(inventory)
+=======
+begin = Begin()
+
+main = Main()
+
+inventory = Inventory()
+
+begin.WakeUp()
+>>>>>>> Stashed changes
 
 main = Main(inventory)
 
